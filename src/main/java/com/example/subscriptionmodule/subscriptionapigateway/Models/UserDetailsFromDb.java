@@ -1,4 +1,4 @@
-package com.example.subscriptionmodule.subscriptionapigateway;
+package com.example.subscriptionmodule.subscriptionapigateway.Models;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

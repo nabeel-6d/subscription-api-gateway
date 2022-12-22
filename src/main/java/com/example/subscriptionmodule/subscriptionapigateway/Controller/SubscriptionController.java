@@ -1,5 +1,6 @@
-package com.example.subscriptionmodule.subscriptionapigateway;
+package com.example.subscriptionmodule.subscriptionapigateway.Controller;
 
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -7,7 +8,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/subscription")
 public class SubscriptionController {
     
+        @GetMapping("/yoho")
+        public String getString(){
+            return "heyyaa mate im up and working";
+        }
 }
+
 
 
 /*

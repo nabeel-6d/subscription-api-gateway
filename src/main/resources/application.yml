@@ -18,3 +18,4 @@ spring:
                 lb://PLAN-SERVICE
               predicates: 
               - Path=/subscription/plans/**
+  
